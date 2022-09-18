@@ -9,11 +9,19 @@ body {
 }
 
 img {
-    width: 80%;
+    width: 45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+}
+
+.site{
+    font-size: 100px;
+    color: rgb(40, 11, 105);
+    text-align: center;
+    font-family: 'Crimson Text', serif;
+    margin-top: 5%;
 }
 
 .title{
@@ -25,8 +33,8 @@ img {
 
 .head{
     background-color:rgb(40, 11, 105) ;
-    height: 50px;
-    width: 90%;
+    height: 75px;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -37,8 +45,6 @@ img {
     justify-content: center;
 
 }
-
-
 
 a {
     color:aliceblue;
@@ -58,25 +64,51 @@ a:hover{
 }
 
 .pulsar{
-    width: 45%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+    margin-top: 2%;
 }
 
 .databank{
-    width: 45%;
+    width: 95%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 2%;
+    margin-right: 2%;
     margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.container {
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.boite1 {
+    width: 15%;
+    height: 340px;
+    border: solid 6px rgb(40, 11, 105);
+    text-align: center;
+}
+
+.boite2 {
+    width: 15%;
+    height: 340px;
+    border: solid 6px rgb(40, 11, 105);
+    text-align: center;
 }
 
 p{
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Crimson Text', serif;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .ref{
@@ -95,4 +127,31 @@ p{
 
 .refachat:hover {
     background-color: rgb(132, 143, 238);
+}
+
+.floater{
+    background-color:rgb(40, 11, 105) ;
+    height: 150px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 60px;
+    display: flex;
+    gap: 120px;
+    justify-content: left;
+
+}
+.txtfloater{
+    color:aliceblue;
+    font-size: 30px;
+    font-family: 'Crimson Text', serif;
+}
+
+.listfloater{
+    color:aliceblue;
+    font-size: 20px;
+    font-family: 'Crimson Text', serif;
+    text-decoration: none;
 }
